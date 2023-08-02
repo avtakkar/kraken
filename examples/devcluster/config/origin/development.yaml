@@ -4,10 +4,10 @@ backends:
   - namespace: library/.*
     backend:
       registry_blob:
-        address: index.docker.io
+        address: aviral26.azurecr.io
         security:
           basic:
-            username: ""
+            username: "aviral26"
             password: ""
   - namespace: .*
     backend:
